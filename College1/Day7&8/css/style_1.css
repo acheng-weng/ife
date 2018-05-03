@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.div1{
+    float: left;
+    width: 30px;
+    background: red;
+}
+.div2{
+    width: 70px;
+    background: blue;
+}
