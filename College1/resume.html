@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Day 5&6</title>
+    <link rel="stylesheet" href="css/style_3.css">
+</head>
+<body>
+<section id="toggleStyle">
+    <button>Style1</button>
+    <button>Style2</button>
+    <button>Style3</button>
+</section>
+
+<h1>简历</h1>
+<div class="content">
+    <h2>基本信息</h2>
+    <ul>
+        <li><strong>姓名</strong> 张三</li>
+        <li><strong>性别</strong> 男</li>
+        <li><strong>应聘职位</strong> Web前端工程师</li>
+    </ul>
+</div>
+<div class="content">
+    <h2>联系方式</h2>
+    <ul>
+        <li><strong>手机</strong> 12312341234</li>
+        <li><strong>Email</strong> <a href=mailto:joinfe@baidu.com>joinfe@baidu.com</a></li>
+        <li><strong>个人主页</strong> <a href="https://github.com/acheng-weng/ife" target="_blank">Github</a></li>
+    </ul>
+</div>
+<div class="content">
+    <h2>能力描述</h2>
+    <h3>技术能力</h3>
+    <p>熟练掌握HTML，CSS，JavaScript</p>
+    <h3>综合能力</h3>
+    <p>良好的沟通，主动积极，努力勤奋</p>
+</div>
+<div class="content">
+    <h2>教育经历</h2>
+    <h3>本科</h3>
+    <p>百度前端技术学院小微学院</p>
+    <h3>研究生</h3>
+    <p>百度前端技术学院大斌学院</p>
+</div>
+<div class="content">
+    <h2>项目经历</h2>
+    <h3>小度小度</h3>
+    <p>作为前端工程师角色参与了ABC组件的开发</p>
+    <h3>SAN Doc</h3>
+    <p>作为文档工程师参与了SAN Doc编写</p>
+</div>
+
+<script>
+    let link = document.querySelector('link');
+    let buttonList = document.querySelectorAll('button');
+    buttonList.forEach(function (value, index) {
+        value.onclick = function () {
+            link.href = './css/style_' + (index + 1) + '.css'  // () is necessary
+        }
+    })
+</script>
+</body>
+</html>

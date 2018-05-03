@@ -1,0 +1,36 @@
+h1{
+    background: #858585;
+    color: #fefeff;
+    text-align: left;
+    padding: 15px 30px 15px 30px;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+.content{
+    position: relative;
+    top: 0;
+}
+h2{
+    background:#d6d6d6 ;
+    padding: 50px 0;
+    width: 120px;
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+}
+ul{
+    padding: 0;
+    position: absolute;top: 0;left: 130px;
+
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 35px;
+}
+h3{
+    display: inline-block;
+}
+p{
+    display: inline-block;
+}
