@@ -3,14 +3,13 @@
     padding: 0;
 }
 .div1{
-    width: 30%;
+    width: 500px;
     height: 100px;
     background: red;
     float: left;
 }
 .div2{
-    width: 70%;
     height: 100px;
     background: blue;
-    margin-left: 30%;
+    margin-left: 500px;
 }
