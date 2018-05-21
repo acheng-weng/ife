@@ -1,15 +1,19 @@
-*{
-    margin: 0;
-    padding: 0;
+.wrapper {
+    padding: 15px 20px;
+    border: 1px dashed #ff6c60;
+
 }
-.div1{
-    width: 500px;
-    height: 100px;
-    background: red;
-    float: left;
+.left {
+    width: 120px;
+    border: 5px solid #ddd;
 }
-.div2{
-    height: 100px;
-    background: blue;
-    margin-left: 500px;
+.right {
+    margin-left: 20px;
+    border: 5px solid #ddd;
+    width: calc(100% - 140px);
+}
+.left,.right{
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
 }
